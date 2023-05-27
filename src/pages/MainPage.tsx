@@ -5,9 +5,6 @@ import { db } from "../firebase";
 
 
 
-
-
-
 const MainPage = () => {
 
     const [inputValue, setInputValue] = useState('');
