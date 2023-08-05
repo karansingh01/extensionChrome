@@ -26,11 +26,12 @@ const SendTxt: React.FC = () => {
       <div className="quote-container">
         <p className="quote-text">{quote}</p>
       </div>
-
+      <div className="allTimeQuotes-container">
       <div id='allTimeQuotes'>
-        <p>I am a lucky person and today is going to be another lucky day.</p>
-        <p>I know that I can be even luckier in the future.</p>
-        <p>I deserve good luck and will receive good fortune today.</p>
+        <p>Dont think about the grade/reward you will get later. Tell yourself, that this hurts and because it hurts, it means my baseline dopamine will be higher in the future. In that moment you are doing what you do because you love it. The journey should be fun. </p>
+        <p>I am a lucky person and today is going to be another lucky day. I deserve good luck and will receive good fortune today.</p>
+        <p>Dont layer different dopamine</p>
+      </div>
       </div>
     </>
   );

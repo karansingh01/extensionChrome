@@ -1,10 +1,15 @@
+body {
+  background-color: #0a3d62;
+}
+
 .quote-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   background-color: #0a3d62;
   color: white;
+  margin-bottom: 0%;
 }
 
 p {
@@ -13,15 +18,29 @@ p {
   max-width: 80%;
 }
 
-#allTimeQuotes{
+.allTimeQuotes-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%; 
+}
+
+#allTimeQuotes {
+  display: flex; /* Changed from block to flex */
+  flex-direction: column; /* Arrange child elements vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 80%;
   height: 25vh;
   background-color: #0a3d62;
   color: white;
+  padding-bottom: 10%;
+  margin-top: 0%;
 }
 
+#allTimeQuotes > p {
+  text-align: center;
+}
 .goals-container {
   background-color: #0a3d62;
   color: white;
@@ -40,7 +59,6 @@ p {
   margin-bottom: 1rem;
   margin-top: 2rem;
   text-align: left;
-
 }
 
 .goals-container label {
